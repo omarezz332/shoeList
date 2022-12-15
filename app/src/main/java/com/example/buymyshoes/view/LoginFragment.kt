@@ -26,8 +26,7 @@ class LoginFragment : Fragment() {
         )
 
         binding.buttonAcessar.setOnClickListener {
-            //login(context)
-            findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
+            login(context)
 
         }
         return binding.root
@@ -37,7 +36,7 @@ class LoginFragment : Fragment() {
 
 
         if (checkIfEmailIsValid() && validPassword()) {
-            Toast.makeText(context, "Valid Form", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(context, "Valid Form", Toast.LENGTH_SHORT).show()
             findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
 
         } else {
