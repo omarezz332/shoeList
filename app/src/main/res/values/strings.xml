@@ -43,5 +43,6 @@
     <string name="add_icon">add</string>
     <string name="welcome_back">WELCOME BACK</string>
     <string name="cancel">Cancel</string>
+    <string name="logout">LogOut</string>
 
 </resources>
